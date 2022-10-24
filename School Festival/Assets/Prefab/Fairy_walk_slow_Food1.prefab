@@ -47,6 +47,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FoodScore: 100
   isEat: 0
+  zaku: {fileID: 0}
+  paku: {fileID: 1277659341182001604, guid: 2c65127454e4f4d48948c7818f154f85, type: 3}
 --- !u!212 &2713513205355564963
 SpriteRenderer:
   m_ObjectHideFlags: 0
