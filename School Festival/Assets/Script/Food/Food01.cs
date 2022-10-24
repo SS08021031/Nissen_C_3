@@ -7,7 +7,7 @@ public class Food01 : MonoBehaviour
     
     public int FoodScore;
     public bool isEat;
-
+    public bool isstab;
     
     
 
@@ -16,7 +16,7 @@ public class Food01 : MonoBehaviour
     void Start()
     {
         isEat = false;
-       
+        isstab = false;
     }
     void Update()
     {
@@ -32,17 +32,29 @@ public class Food01 : MonoBehaviour
                 
             }
         }
-        
+        if (Input.GetKey(KeyCode.Return))
+        {
+            
+            isstab = true;
+        }
+
+        if (Input.GetKeyUp(KeyCode.Return))
+        {
+            isstab = false;
+        }
+
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Fork"))
+        if (isstab == true)
         {
-            zaku.instance.soundZaku();
-            Audio_Manager.instance.PlaySE(7);
-            this.gameObject.transform.parent = other.gameObject.transform;
+            if (other.CompareTag("Fork"))
+            {
+                zaku.instance.soundZaku();
+                Audio_Manager.instance.PlaySE(7);
+                this.gameObject.transform.parent = other.gameObject.transform;
+            }
         }
-           
     }
     
     void Eat()
