@@ -11,7 +11,7 @@ public class GameStartCon : MonoBehaviour
 
     public void OnGameStart()
     {
-        SceneManager.LoadScene("Ingame");
+        SceneManager.LoadScene("Title");
         Debug.Log("Log");
 
 
@@ -19,7 +19,7 @@ public class GameStartCon : MonoBehaviour
 
     public void OnGameStop()
     {
-        SceneManager.LoadScene("Title");
+        SceneManager.LoadScene("QR");
         //ResultRank result = ResultRank.A;
         //Nissensai.SendResult(result);
         Debug.Log("result");

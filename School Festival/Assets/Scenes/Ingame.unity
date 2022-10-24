@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 348237169}
   - component: {fileID: 348237170}
   m_Layer: 0
-  m_Name: "\u30D1\u30AF\u30C3 (1)"
+  m_Name: paaku2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1367,7 +1367,7 @@ GameObject:
   - component: {fileID: 1946118739}
   - component: {fileID: 1946118740}
   m_Layer: 0
-  m_Name: "\u30D1\u30AF\u30C3"
+  m_Name: paaku1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1450,7 +1450,7 @@ GameObject:
   - component: {fileID: 2142673246}
   - component: {fileID: 2142673245}
   m_Layer: 0
-  m_Name: "\u30B6\u30AF\u30C3"
+  m_Name: zakku
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
