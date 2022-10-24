@@ -13,6 +13,9 @@ public class Player_LongHand : MonoBehaviour
     public float target2Y;
 
     public bool targetCheck;
+
+    public GameObject fukuro;
+
     void Start()
     {
         target.transform.position = new Vector2(targetX, targetY);
@@ -33,6 +36,8 @@ public class Player_LongHand : MonoBehaviour
             speed = 0.1f;
             transform.position = Vector3.MoveTowards(transform.position, target.position, speed);
             targetCheck = true;
+
+            fukuro.gameObject.transform.parent = null;
         }
     }
 

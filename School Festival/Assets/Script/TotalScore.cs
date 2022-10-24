@@ -44,7 +44,7 @@ public class TotalScore : MonoBehaviour
         if (score > 0)
         
             rank = ResultRank.E;
-            ScoreE.instance.EScore();
+            //ScoreE.instance.EScore();
         
         scoreText.text = "Result" + rank;
 
