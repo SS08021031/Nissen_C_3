@@ -16,10 +16,14 @@ public class Player_LongHand : MonoBehaviour
 
     public GameObject fukuro;
 
+    public AudioClip Money;
+    AudioSource audioSource;
+
     void Start()
     {
-        target.transform.position = new Vector2(targetX, targetY);
+        audioSource = GetComponent<AudioSource>();
 
+        target.transform.position = new Vector2(targetX, targetY);
         targetCheck = false;
     }
     
@@ -44,5 +48,8 @@ public class Player_LongHand : MonoBehaviour
     void Check()
     {
         targetCheck = true;
+
+        audioSource.clip = Money;
+        audioSource.Play();
     }
 }
