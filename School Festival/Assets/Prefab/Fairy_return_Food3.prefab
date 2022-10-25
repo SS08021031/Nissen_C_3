@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 4088607773878430348}
   - component: {fileID: 4088607773878430349}
   m_Layer: 0
-  m_Name: job_waiter
+  m_Name: Fairy_return
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -283,6 +283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FoodScore: 100
   isEat: 0
+  isstab: 0
 --- !u!212 &4088607774695721048
 SpriteRenderer:
   m_ObjectHideFlags: 0

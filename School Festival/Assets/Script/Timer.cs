@@ -8,6 +8,7 @@ public class Timer : MonoBehaviour
 {
     
     public static int score;
+    
 
     public static int getscore()
     {
@@ -22,10 +23,7 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if (Input.GetMouseButtonDown(1))
-        {
-            score += 100;
-        }
+       // Debug.Log("" + score);
+        
     }
 }
