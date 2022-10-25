@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdbdb99d21a5b104a9a18ac2d0e701ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FoodScore: 100
+  FoodScore: 1500
   isEat: 0
   isstab: 0
 --- !u!212 &5534333054137973626
