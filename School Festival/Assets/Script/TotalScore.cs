@@ -42,20 +42,14 @@ public class TotalScore : MonoBehaviour
         else if (score > 200)
 
             rank = ResultRank.D;
-<<<<<<< HEAD
+
 
         else if (score > 0)
         
             rank = ResultRank.E;
             
         
-=======
-        if (score > 0)
 
-            rank = ResultRank.E;
-       //ScoreE.instance.EScore();
-         mathText.text = "" + score;
->>>>>>> origin/main
         scoreText.text = "Result" + rank;
     }
     void Sprite()
