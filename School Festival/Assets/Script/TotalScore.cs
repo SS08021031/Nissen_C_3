@@ -23,23 +23,25 @@ public class TotalScore : MonoBehaviour
         score = Timer.getscore();
         //Debug.Log(score);
 
-        if (score > 800)
+        mathText.text ="" + score;
+
+        if (score > 8000)
 
             rank = ResultRank.A;
 
 
 
-        else if (score > 600)
+        else if (score > 6000)
 
             rank = ResultRank.B;
 
 
-        else if (score > 400)
+        else if (score > 4000)
 
             rank = ResultRank.C;
 
 
-        else if (score > 200)
+        else if (score > 2000)
 
             rank = ResultRank.D;
 
