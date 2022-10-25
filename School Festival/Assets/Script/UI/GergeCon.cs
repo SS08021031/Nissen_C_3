@@ -28,7 +28,7 @@ public class GergeCon : MonoBehaviour
         Gauge2.fillAmount += 0.0045f / gaugeime;
 
         timeElapsed += Time.deltaTime;
-        Debug.Log(timeElapsed);
+        //Debug.Log(timeElapsed);
         if (timeElapsed >= timeOut)
         {
             timeElapsed = 0;

@@ -162,8 +162,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5169695911790041992}
   - component: {fileID: 5169695911790041993}
+  - component: {fileID: 365650935359683470}
   m_Layer: 0
-  m_Name: job_waiter
+  m_Name: Fairy_slow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -235,6 +236,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &365650935359683470
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5169695911790041999}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6f37e8b82f5f42f4695a356cfa697ec1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5169695912616261953
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,6 +302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FoodScore: 300
   isEat: 0
+  isstab: 0
 --- !u!212 &5169695912616261980
 SpriteRenderer:
   m_ObjectHideFlags: 0

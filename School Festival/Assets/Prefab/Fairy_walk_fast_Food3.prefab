@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5609273904328813727}
   - component: {fileID: 5609273904328813724}
   m_Layer: 0
-  m_Name: job_waiter (1)
+  m_Name: Fairy_fast2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 5609273904677731927}
   - component: {fileID: 5609273904677731924}
   m_Layer: 0
-  m_Name: job_waiter
+  m_Name: Fairy_fast1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -283,6 +283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FoodScore: 200
   isEat: 0
+  isstab: 0
 --- !u!212 &5609273905620358269
 SpriteRenderer:
   m_ObjectHideFlags: 0
